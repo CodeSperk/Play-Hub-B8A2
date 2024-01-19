@@ -1,0 +1,330 @@
+/* For Mobile Devices 
+-----------------------*/
+@media screen and (max-width:425px) {
+  
+  .nav-container, .nav-items, .nav-menu{
+    flex-direction: column;
+  }
+  .nav-logo-container,.banner-img{
+    width:80%;
+    margin: auto;
+    justify-content: center;
+  }
+  .nav-items{
+    width:80%;
+    margin:2rem auto;
+    gap:36px;
+  }
+  .nav-menu{
+    gap:36px;
+  }
+  .nav-icons{
+    margin-top:2rem;
+  }
+  .banner-container{
+    flex-direction: column-reverse;
+  }
+  .banner-content{
+    width:100%;
+    text-align: center;
+  }
+  .banner-title{
+  font-size: 2rem;
+  }
+  .banner-heading{
+    font-size: 3rem;
+    }
+    .banner-text{
+      font-size: 1rem;
+    }
+  .primary-btn{
+    padding:1rem 1.5rem;
+    font-size: 12px;
+    }
+/* Gamers Quote Section
+------------------------ */
+  .gamers{
+    max-width:95%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .gamers-img{
+    width:100%;
+  }
+  
+  .gamers-content{
+    width:80%;
+    text-align: center;
+    margin-left:0;
+  }
+
+/* Online Game Section
+-------------------------- */
+.online-games{
+  max-width: 90%;
+}
+.card-container{
+  grid-template-columns: 1fr;
+}
+
+
+
+/* Play Instantly Section 
+---------------------------*/
+  .play-instant-container{
+    flex-direction: column;
+    max-width: 100%;
+    justify-content: center;
+  }
+  .play-instant-content{
+    width:90%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .play-instant-imgs{
+    width:90%;
+    margin: 3rem 0;
+  }
+
+/* Career Section
+------------------------ */
+.career{
+  flex-direction:column;
+}
+.career-content{
+ width:95%;
+padding: 2rem 0;
+}
+.career-img{
+  width:100%;
+}
+.career-img img{
+  width:100%;
+  height:100%;
+}
+
+/* Games Types Section
+----------------------- */
+  .types-container{
+    margin: 8px;
+    padding:3rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:8px;
+  }
+  .type{
+    max.width:120px;
+  }
+  .type img{
+   width:1.5rem;
+  }
+  .type-txt{
+  font-size:8px;
+  padding-right:8px;
+  }
+
+/* Footer Section
+------------------- */
+  .footer{
+    padding:30px;
+  }
+  .branch-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .branch-container a{
+    padding: 1rem 10px;
+    font-size: 1rem;
+  }
+  .terms-privacy{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .terms-privacy a, .copyright{
+    color: rgba(255, 255, 255, 0.60);
+  font-size:12px;
+  font-weight: 500;
+  padding: 10px 30px;
+  }
+  .social-icons{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+  .social-icons i{
+    margin-right:2.5rem;
+    font-size: 2.5rem;
+  }
+
+}
+
+
+
+
+
+
+/* For Medium Devices
+======================= */
+
+@media screen and (min-width:425.1px) and (max-width:768px) {
+  .nav-container, .nav-items, .banner-container{
+    flex-direction: column;
+  }
+  .nav-logo-container{
+    width:100%;
+    justify-content: center;
+  }
+  .nav-items{
+    width:100%;
+    margin:2rem auto;
+  }
+
+  .banner-container{
+    flex-direction: column-reverse;
+  }
+  .banner-content{
+    width:100%;
+    text-align: center;
+  }
+  .banner-list-container{
+    width:100%;
+    display:flex;
+    justify-content: center;
+  }
+  .banner-title{
+  font-size: 2rem;
+  }
+  .banner-heading{
+    font-size: 3rem;
+    }
+    .banner-text{
+      font-size: 1rem;
+    }
+  .primary-btn{
+    padding:1rem 1.5rem;
+    font-size: 12px;
+    }
+    .banner-img{
+      width: 80%;
+    }
+  
+  /* Gamers Quote Section
+------------------------ */
+.gamers{
+  max-width:95%;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+.gamers-img{
+  width:100%;
+}
+
+.gamers-content{
+  width:80%;
+  text-align: center;
+  margin-left:0;
+}
+/* Online Game Section
+-------------------------- */
+.online-games{
+  max-width: 80%;
+}
+.card-container{
+  grid-template-columns: 1fr 1fr;
+}
+
+  /* Play Instantly Section 
+---------------------------*/
+.play-instant-container{
+  flex-direction: column;
+  max-width: 100%;
+  justify-content: center;
+}
+.play-instant-content{
+  width:90%;
+  text-align: center;
+  margin: 0 auto;
+}
+.play-instant-imgs{
+  width:90%;
+  margin: 3rem 0;
+}
+ 
+  /* Play Instantly Section 
+---------------------------*/
+.play-instant-container{
+  flex-direction: column;
+  max-width: 100%;
+  justify-content: center;
+}
+.play-instant-content{
+  width:90%;
+  text-align: center;
+  margin: 0 auto;
+}
+.play-instant-imgs{
+  width:90%;
+  margin: 3rem 0;
+}
+/* Career Section
+------------------------ */
+.career{
+  flex-direction:column;
+}
+.career-content{
+ width:95%;
+padding: 2rem 0;
+}
+.career-img{
+  width:100%;
+}
+.career-img img{
+  width:100%;
+  height:100%;
+}
+
+  /* Games Types Section
+  ------------------------ */
+  .types-container{
+    margin: 8px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:8px;
+  }
+  .type{
+    max.width:120px;
+  }
+  .type img{
+   width:1.5rem;
+  }
+
+
+/* Footer Section
+--------------------- */
+  .footer{
+    padding:5rem;
+  }
+  .branch-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+ 
+    .terms-privacy{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  .terms-privacy a{
+  padding: 10px;
+  }
+  .copyright{
+    margin-top:3rem;
+  }
+  
+  .social-icons{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+
+
+}
